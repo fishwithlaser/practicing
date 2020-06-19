@@ -1,6 +1,5 @@
 # practiting
 
-
 # Range Manager
 You are to design and implement a data structure that can be used to keep track of and manipulate “ranges”. A “range” is defined by a starting point (inclusive) and an ending point (exclusive), for example the range (1, 4) contains the values 1, 2, and 3. You may assume the ranges can only be defined with integer values.
 
@@ -21,3 +20,6 @@ Get(start, end): Returns a list of ranges contained in the data that intersect w
 i) State [(1, 3), (5, 7)]. Get(4, 5). Returns []
 ii) State [(1, 3), (5, 6)]. Get(4, 6). Returns [(5, 6)]
 iii) State [(1, 3), (5, 6)]. Get(2, 9). Returns [(1, 3), (5, 6)]
+
+# Advent of Coding
+coding for fun. Finding solution to: https://adventofcode.com/
