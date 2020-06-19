@@ -16,17 +16,6 @@ try:
 except AssertionError:
     print('incorrect module_fuel calculation')
 
-    """ 
-    print('part 1 - paste input:')
-    mass_list = input()
-    mass_list = mass_list.split(' ')
-    mass_list = [int(mass.strip()) for mass in mass_list]
-    mass_sum = 0
-    for mass in mass_list:
-        mass_sum += module_fuel(mass)
-        
-    print(f'you MASSt {mass_sum} units of fuel')
-    """
 
 
 ### PART TWO
@@ -49,7 +38,20 @@ except AssertionError:
     print('error in fuel_fuel')
 
 if __name__ == "__main__":
-    print('part 2 - paste input:')
+
+    # Answer to Part 1 of 2 
+    print('part 1 of 2 - paste input:')
+    mass_list = input()
+    mass_list = mass_list.split(' ')
+    mass_list = [int(mass.strip()) for mass in mass_list]
+    mass_sum = 0
+    for mass in mass_list:
+        mass_sum += module_fuel(mass)
+        
+    print(f'you MASSt {mass_sum} units of fuel')
+    
+    # Answer to part 2 of 2
+    print('part 2 of 2 - paste input:')
     mass_list = input()
     mass_list = mass_list.split(' ')
     mass_list = [int(mass.strip()) for mass in mass_list]
@@ -59,4 +61,4 @@ if __name__ == "__main__":
         mass_sum += fuel_mass
         mass_sum += fuel_fuel(fuel_mass)
 
-    print(f'you MASSt {mass_sum} units of fuel')
+    print(f'you MASSt {mass_sum} units of fuel.')
