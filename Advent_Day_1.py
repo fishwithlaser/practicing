@@ -1,4 +1,5 @@
-#Advent of Coding
+# Advent of Coding
+# https://adventofcode.com/2019/day/1
 
 #### PART ONE
 def module_fuel(mass) -> int:
